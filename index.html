@@ -12,6 +12,50 @@
   <title>Wireframe-bootstrap</title>
 </head>
 <body>
+<div class="p-3 mb-2 bg-info text-white">
+  <div class="container mb-3 mx-4 mt-3">
+    <div class="row g-0">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h6 class="card-title text-danger">Card title</h6>
+          <h5 class="text-info">Learn what you need to know</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+
+      </div>
+      <div class="col-4 mt-4 ">
+        <img src="images/person.png" class="img-fluid rounded-start" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="card-img-overlay">
+    <nav class="navbar navbar-expand-lg navbar-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <button type="button" class="btn  rounded-pill ">SUPPORT</button>
+            <button type="button" class="btn rounded-pill">LOG IN</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<!--<div class="card">-->
+<!--  <img src="images/person.png" alt="" >-->
+<!--  <div class="card-img-overlay">-->
+<!--    <h5 class="card-title">-->
+<!--      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, labore.</p>-->
+<!--    </h5>-->
+<!--  </div>-->
+<!--</div>-->
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
@@ -92,7 +136,7 @@
 </div>
 <hr>
 
-<p class="font-weight-bold text-center text-capitalize">One-on-One</p>
+<p class="font-weight-bold text-center text-capitalize text-muted">One-on-One</p>
 <div class="container">
   <div class="row">
     <div class="col-sm-5 col-md-6"><i style='font-size:24px' class='far'>&#xf075;</i></div>
@@ -105,26 +149,34 @@
 </div>
 
 <hr>
-<p class="font-weight-bold text-center text-capitalize">Testimonials</p>
-<div class="container-fluid m-2 p-5">
+<p class="font-weight-bold text-center text-capitalize p-3 text-muted">Testimonials</p>
+<div class="container-fluid">
   <div class="row">
     <div class="col-sm-4 center ">
-      <div class="">
-        <iframe width="790" height="444" src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container-fluid">
+        <iframe src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="text-center"><q class="text-muted">Lorem ipsum dolor sit amet.</q></p>
       </div>
     </div>
     <div class="col-sm-4 center">
-      <div class="">
-        <iframe width="790" height="444" src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container-fluid">
+        <iframe  src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="text-center"><q class="text-muted">Lorem ipsum dolor sit amet.</q></p>
       </div>
     </div>
     <div class="col-sm-4 center">
-      <div class="">
-        <iframe width="790" height="444" src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="container-fluid">
+        <iframe src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <blockquote class="blockquote text-center">
+          <p class="mb-0 text-center text-muted">Lorem ipsum dolor sit amet.</p>
+          <footer class="blockquote-footer mt-1">John  Doe<cite title="Source Title"> USA, 740 GMAT</cite></footer>
+        </blockquote>
       </div>
     </div>
   </div>
 </div>
+<hr>
+<p class="font-weight-bold text-center text-capitalize px-3 text-muted">Wait, there's more!</p>
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->
