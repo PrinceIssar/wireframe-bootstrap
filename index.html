@@ -4,53 +4,127 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <!--Get your own code at fontawesome.com-->
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <title>Wireframe-bootstrap</title>
 </head>
 <body>
-<!--navbar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand bg-dark bg-dark" href="#" >The LOGO</a>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Overview</a>
+          <a class="nav-link" href="#">Overview</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">One-on-One</a>
+          <a class="nav-link" href="#">One-on-One</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+          <a class="nav-link" href="#">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">More</a>
+          <a class="nav-link" href="#">More</a>
         </li>
+        <button type="button" class="btn btn-danger rounded-pill">MAIN CTA BUTTON</button>
       </ul>
-      <button type="button" class="btn btn-danger rounded">MAIN CTA BUTTON</button>
-
     </div>
   </div>
 </nav>
-<!--navbar-->
 
 
+<div class="container mb-3 mx-4 mt-3">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6 class="card-title text-danger">Card title</h6>
+        <h5 class="text-info">Learn what you need to know</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+
+    </div>
+    <div class="col-4">
+      <img src="images/question.jpeg" class="img-fluid rounded-start" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="container mb-3 mx-4 mt-3" >
+  <div class="row g-0">
+    <div class="col-md-3 ">
+      <img src="images/checklist.jpeg" class=" img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6 class="card-title text-danger">Card title</h6>
+        <h5 class="text-info">Learn what you need to know</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<div class="container mb-3 mx-4 mt-3">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h6 class="card-title text-danger">Card title</h6>
+        <h5 class="text-info">Learn what you need to know</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
 
+    </div>
+    <div class="col-4">
+      <img src="images/fifty.jpeg" class="img-fluid rounded-start" alt="">
+    </div>
+  </div>
+</div>
+<hr>
 
+<p class="font-weight-bold text-center text-capitalize">One-on-One</p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-5 col-md-6"><i style='font-size:24px' class='far'>&#xf075;</i></div>
+    <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+    <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0</div>
+  </div>
+</div>
 
-
-
-
-
-
+<hr>
+<p class="font-weight-bold text-center text-capitalize">Testimonials</p>
+<div class="container-fluid m-2 p-5">
+  <div class="row">
+    <div class="col-sm-4 center ">
+      <div class="">
+        <iframe width="790" height="444" src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-4 center">
+      <div class="">
+        <iframe width="790" height="444" src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-4 center">
+      <div class="">
+        <iframe width="790" height="444" src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->
