@@ -69,13 +69,13 @@
           <a class="nav-link" href="#overView">Overview</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">One-on-One</a>
+          <a class="nav-link" href="#oneOnOne">One-on-One</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#testimonials">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">More</a>
+          <a class="nav-link" href="#more">More</a>
         </li>
         <button type="button" class="btn btn-danger rounded-pill">MAIN CTA BUTTON</button>
       </ul>
@@ -84,7 +84,7 @@
 </nav>
 
 
-<div class="container mb-3 mx-4 mt-3">
+<div class="container mb-3 mx-4 mt-3" id="overView">
   <div class="row g-0">
     <div class="col-md-8">
       <div class="card-body">
@@ -116,7 +116,7 @@
 </div>
 
 
-<div class="container mb-3 mx-4 mt-3">
+<div class="container mb-3 mx-4 mt-3 ">
   <div class="row g-0">
     <div class="col-md-8">
       <div class="card-body">
@@ -133,7 +133,7 @@
 </div>
 <hr>
 
-<p class="font-weight-bold text-center text-capitalize text-muted">One-on-One</p>
+<p class="font-weight-bold text-center text-capitalize text-muted" id="oneOnOne">One-on-One</p>
 <div class="container">
   <div class="row">
     <div class="col-sm-5 col-md-6"><i style='font-size:24px' class='far'>&#xf075;</i></div>
@@ -146,12 +146,13 @@
 </div>
 
 <hr>
-    <section id="#testimonials">
+    <section id="testimonials">
 <p class="font-weight-bold text-center text-capitalize p-3 text-muted">Testimonials</p>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-4 center">
-      <div class="container-fluid">
+
+
+  <div class="row  justify-content-around">
+    <div class="col-sm-4">
+      <div class="container-fluid justify-content-around" >
         <iframe src="https://www.youtube.com/embed/m1T3T2Aofqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <blockquote class="blockquote text-center">
           <p class="mb-0 text-center text-muted">Lorem ipsum dolor sit amet.</p>
@@ -178,12 +179,28 @@
       </div>
     </div>
   </div>
-</div>
+
     </section>
 
 <hr>
-<p class="font-weight-bold text-center text-capitalize px-3 text-muted">Wait, there's more!</p>
+<p class="font-weight-bold text-center text-capitalize px-3 text-muted" id="more">Wait, there's more!</p>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <button class="btn btn-danger rounded-pill">IT'S A REALLY BIG CTA</button>
+          <dl><dd class=" text-muted">Try it free for 7 days with no commitment</dd></dl>
+        </div>
+      </div>
+    </div>
 
+    <hr>
+    <footer class="bg-secondary text-light p-5 text-center ">
+
+        <p>Footer Material</p>
+
+      <!-- Copyright -->
+    </footer>
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
